@@ -1,0 +1,359 @@
+/*
+* @Author: 28596
+* @Date:   2020-12-18 12:44:33
+* @Last Modified by:   28596
+* @Last Modified time: 2020-12-19 21:37:31
+*/
+body{
+	background: url("../images/beijing2.jpg");
+}
+.header{
+	width: 1200px;
+	margin-left:220px;
+	height: 101px;
+}
+.logo{
+	width:170px;
+	height:39px;
+	float: left;
+	margin-top: 5px;
+}
+#nav{
+		width:428px;
+		height:40px;
+		line-height: 40px;
+		padding-top: 42px;
+		padding-left: 79px;
+		display: inline-block;
+	}
+	#nav li{
+		display: inline-block;
+		font-size: 18px;
+		float: left;
+		text-align: center;
+	}
+	.nav-1{
+		margin-right: 48px;
+		width: 54px;
+	}
+	.nav-2{
+		margin-right: 48px;
+	}
+	.shouye:link{
+		color: orange;
+	}
+	.shouye:visited{
+		color: orange;
+	}
+	.shouye:hover{
+		border-bottom: 2px solid #00a4ff; 
+	}
+	.shouye:active{
+		color: orange;
+	}
+	.form{
+		display: inline-block;
+		height: 40px;
+
+	}
+	.search{
+		border: solid rgb(255,192,203) 2px;
+		width:341px;
+		padding:13px 0px 12px 19px;
+		height: 11px;
+		float: left;	
+	}
+	.submit{
+		float: left;
+		width: 50px;
+		height: 40px;
+		background: rgba(255,192,203,1)  center;
+		border: 2px rgba(255,192,203,1) solid;
+	}
+	
+	
+	li{
+		list-style: none;
+	}
+	
+	.mao{
+		height: 60px;
+		width: 940px;
+		line-height: 60px;
+		margin-left: 300px;
+		margin-top: 8px;
+		margin-bottom: 0px;
+		background:rgba(255,255,255,1);
+		box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	}
+	.mao a {
+		padding: 0 30px;
+		border-right:1px solid #ccc;
+        height:16px;
+        font-size: 16px;
+        color: #00ddaa;
+	}
+	.mao a:hover{
+		color: #00ddaa;
+        font-weight:bold;
+	}
+	.mao a:first-child {
+    	color: #00ddaa;
+    	font-weight: 700;
+    }
+    .maoliang{
+    	line-height: 60px;
+    	float: right;
+    	font-size: 16px;
+    	color: rgba(0, 164, 255, 1)
+    } 
+    .mao-bg ul li{
+    	float: left;
+    	width: 228px;
+    	height: 270px;
+    	background:rgba(255,255,255,1);
+        box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .mao-bg{
+    	margin-top: 0px;
+    	margin-left: 300px;
+    	height: 576px;
+    	width: 1000px;
+    }
+    .up{
+    	float: left;
+    	position: relative;
+    	padding: 0 10px 0 10px;
+    }
+    .mao-bg ul li p{
+       padding: 0 30px 0 30px;
+       position: relative;
+       left: 0px;
+       top: -10px; 
+       text-align: center;
+    }
+    .mao-bg ul li p{
+    	font-size: 14px;
+    	color: rgba(12,177,155,1);
+    }
+
+
+    .lingshi ul li{
+    	float: left;
+    	width: 228px;
+    	height: 270px;
+    	background:rgba(255,255,255,1);
+        box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .lingshi{
+    	margin-left: 300px;
+    	height: 576px;
+    	width: 1000px;
+    }
+    .down{
+    	float: left;
+    	position: relative;
+    	padding: 0 10px 0 10px;
+    }
+    .lingshi ul li p{
+       padding: 0 30px 0 30px;
+       position: relative;
+       left: 0px;
+       top: -10px; 
+       text-align: center;
+    }
+    .lingshi ul li p{
+    	font-size: 14px;
+    	color: rgba(12,177,155,1);
+    }
+    .gou{
+		height: 60px;
+		width: 940px;
+		line-height: 60px;
+		margin-left: 300px;
+		margin-top: 8px;
+		background:rgba(255,255,255,1);
+		box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	}
+    .gou a {
+		padding: 0 30px;
+		border-right:1px solid #ccc;
+        height:16px;
+        font-size: 16px;
+        color: #00ddaa;
+	}
+	.gou a:hover{
+		color: #00ddaa;
+        font-weight:bold;
+	}
+	.gou a:first-child {
+    	color: #00ddaa;
+    	font-weight: 700;
+    }
+	.bottom{
+		padding:0 ;
+		margin: 0;
+		width: 1550px;
+		height: 100px;
+		
+		text-align: center;
+	}
+	.bottom p{
+		color: black;
+		line-height: 100px;
+	}
+	.footer {
+    height: 270px;
+    background-color: rgba(255,192,203,0.7);
+    margin-top: 100px;
+    width: 1519px;
+	}
+	.footer-r {
+	 	color: #333;
+	}
+	.footer-r ul {
+	    float: left;
+	    width: 150px;
+	}
+	.footer-r span {
+	    font-size: 20px;
+	    height: 30px;
+	}
+	.footer-r li {
+	    font-size: 15px;
+	    height: 20px;
+	    margin-top: 15px;
+	    margin-left: 50px;
+	}
+	.footer-r li a:hover {
+	    color: #00a4ff;
+	}
+
+	.footer-a {
+	 	color: #333;
+	}
+	.footer-a ul {
+	    float: left;
+	    width: 150px;
+	}
+	.footer-a span {
+	    font-size: 20px;
+	    height: 30px;
+	}
+	.footer-a li {
+	    font-size: 15px;
+	    height: 20px;
+	    margin-top: 15px;
+	    margin-left: 50px;
+	}
+	.footer-a li a:hover {
+	    color: #00a4ff;
+	}
+
+	.footer-b {
+	 	color: #333;
+	}
+	.footer-b ul {
+	    float: left;
+	    width: 150px;
+	}
+	.footer-b span {
+	    font-size: 20px;
+	    height: 30px;
+	}
+	.footer-b li {
+	    font-size: 15px;
+	    height: 20px;
+	    margin-top: 15px;
+	    margin-left: 50px;
+	}
+	.footer-b li a:hover {
+	    color: #00a4ff;
+	}
+	.k{
+		width: 320px;
+		position: relative;
+		left: 598px;
+		top: 10px;
+	}
+	.l1{
+		text-decoration: none;
+	}
+	.banner{
+		position: relative;
+        width: 750px;
+        height: 350px;
+        margin:0px auto 0 auto;
+        box-shadow: 0 0 5px purple;
+        overflow: hidden;
+	}
+	.banner-in{
+		position: absolute;
+        width: 5250px;
+        height: 350px;
+        z-index: 2;
+	}
+	.banner .banner-in img{
+		float: left;
+        width: 750px;
+        height: 350px;
+	}
+	.banner .buttons{
+		position: absolute;
+        right: 300px;
+        bottom:20px;
+        width: 150px;
+        height: 10px;
+        z-index: 2;
+	}
+	.banner .buttons span{
+		margin-left: 5px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: pink;
+		text-align: center;
+        color:white;
+        cursor: pointer;
+	}
+	.banner .buttons span .on{
+		background-color: red;
+	}
+	.banner .arrow{
+		position: absolute;
+        top: 35%;
+        color: pink;
+        padding:0px 14px;
+        border-radius: 50%;
+        font-size: 50px;
+        z-index: 2;
+        display: none;
+	}
+	.banner .arrow_left{
+		left: 10px;
+	}
+	.banner .arrow_right{
+		right: 10px;
+	}
+	.banner:hover .arrow{
+		display: block;
+	}
+	.banner .arrow:hover{
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	.show{
+		float: left;
+		width: 300px;
+	} 
+	#hua{
+		width: 200px;
+		height: 80px;
+		background-color: red;
+		position: absolute;
+		left: 0px;
+	}
